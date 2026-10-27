@@ -1,0 +1,325 @@
+frequency,period,year,quarter,breakdown,category,unit,value
+Annual,2021,2021,,Mail type,Letters,items,101390
+Annual,2021,2021,,Mail type,Priority letters,items,
+Annual,2021,2021,,Mail type,Printed matters,items,11299
+Annual,2021,2021,,Mail type,Packets,items,18248
+Annual,2021,2021,,Mail type,Parcels,items,4540
+Annual,2021,2021,,Mail type,Registered,items,69253
+Annual,2021,2021,,Mail type,Express Mail Service,items,9979
+Annual,2021,2021,,Mail type,Total,items,214709
+Annual,2021,2021,,Destination,Domestic,items,77506
+Annual,2021,2021,,Destination,International outbound,items,87229
+Annual,2021,2021,,Destination,International inbound,items,49974
+Annual,2021,2021,,Destination,Total,items,214709
+Annual,2022,2022,,Mail type,Letters,items,82323
+Annual,2022,2022,,Mail type,Priority letters,items,
+Annual,2022,2022,,Mail type,Printed matters,items,10346
+Annual,2022,2022,,Mail type,Packets,items,14290
+Annual,2022,2022,,Mail type,Parcels,items,3261
+Annual,2022,2022,,Mail type,Registered,items,60517
+Annual,2022,2022,,Mail type,Express Mail Service,items,12281
+Annual,2022,2022,,Mail type,Total,items,183018
+Annual,2022,2022,,Destination,Domestic,items,50512
+Annual,2022,2022,,Destination,International outbound,items,75982
+Annual,2022,2022,,Destination,International inbound,items,56583
+Annual,2022,2022,,Destination,Total,items,183077
+Annual,2023,2023,,Mail type,Letters,items,62958
+Annual,2023,2023,,Mail type,Priority letters,items,
+Annual,2023,2023,,Mail type,Printed matters,items,8890
+Annual,2023,2023,,Mail type,Packets,items,11927
+Annual,2023,2023,,Mail type,Parcels,items,2890
+Annual,2023,2023,,Mail type,Registered,items,49955
+Annual,2023,2023,,Mail type,Express Mail Service,items,11330
+Annual,2023,2023,,Mail type,Total,items,147950
+Annual,2023,2023,,Destination,Domestic,items,35156
+Annual,2023,2023,,Destination,International outbound,items,68412
+Annual,2023,2023,,Destination,International inbound,items,44382
+Annual,2023,2023,,Destination,Total,items,147950
+Annual,2024,2024,,Mail type,Letters,items,54901
+Annual,2024,2024,,Mail type,Priority letters,items,
+Annual,2024,2024,,Mail type,Printed matters,items,5141
+Annual,2024,2024,,Mail type,Packets,items,7029
+Annual,2024,2024,,Mail type,Parcels,items,2203
+Annual,2024,2024,,Mail type,Registered,items,47042
+Annual,2024,2024,,Mail type,Express Mail Service,items,7536
+Annual,2024,2024,,Mail type,Total,items,123852
+Annual,2024,2024,,Destination,Domestic,items,31121
+Annual,2024,2024,,Destination,International outbound,items,58689
+Annual,2024,2024,,Destination,International inbound,items,34042
+Annual,2024,2024,,Destination,Total,items,123852
+Annual,2025,2025,,Mail type,Letters,items,56898
+Annual,2025,2025,,Mail type,Priority letters,items,
+Annual,2025,2025,,Mail type,Printed matters,items,6087
+Annual,2025,2025,,Mail type,Packets,items,5049
+Annual,2025,2025,,Mail type,Parcels,items,2649
+Annual,2025,2025,,Mail type,Registered,items,41361
+Annual,2025,2025,,Mail type,Express Mail Service,items,7110
+Annual,2025,2025,,Mail type,Total,items,119154
+Annual,2025,2025,,Destination,Domestic,items,31907
+Annual,2025,2025,,Destination,International outbound,items,51780
+Annual,2025,2025,,Destination,International inbound,items,35467
+Annual,2025,2025,,Destination,Total,items,119154
+Quarterly,2021-Q1,2021,1,Mail type,Letters,items,24754
+Quarterly,2021-Q1,2021,1,Mail type,Priority letters,items,
+Quarterly,2021-Q1,2021,1,Mail type,Printed matters,items,1317
+Quarterly,2021-Q1,2021,1,Mail type,Packets,items,5050
+Quarterly,2021-Q1,2021,1,Mail type,Parcels,items,890
+Quarterly,2021-Q1,2021,1,Mail type,Registered,items,17001
+Quarterly,2021-Q1,2021,1,Mail type,Express Mail Service,items,1950
+Quarterly,2021-Q1,2021,1,Mail type,Total,items,50962
+Quarterly,2021-Q1,2021,1,Destination,Domestic,items,19502
+Quarterly,2021-Q1,2021,1,Destination,International outbound,items,21687
+Quarterly,2021-Q1,2021,1,Destination,International inbound,items,9773
+Quarterly,2021-Q1,2021,1,Destination,Total,items,50962
+Quarterly,2021-Q2,2021,2,Mail type,Letters,items,29319
+Quarterly,2021-Q2,2021,2,Mail type,Priority letters,items,
+Quarterly,2021-Q2,2021,2,Mail type,Printed matters,items,3791
+Quarterly,2021-Q2,2021,2,Mail type,Packets,items,4565
+Quarterly,2021-Q2,2021,2,Mail type,Parcels,items,1331
+Quarterly,2021-Q2,2021,2,Mail type,Registered,items,17430
+Quarterly,2021-Q2,2021,2,Mail type,Express Mail Service,items,2789
+Quarterly,2021-Q2,2021,2,Mail type,Total,items,59225
+Quarterly,2021-Q2,2021,2,Destination,Domestic,items,18822
+Quarterly,2021-Q2,2021,2,Destination,International outbound,items,21676
+Quarterly,2021-Q2,2021,2,Destination,International inbound,items,18727
+Quarterly,2021-Q2,2021,2,Destination,Total,items,59225
+Quarterly,2021-Q3,2021,3,Mail type,Letters,items,24404
+Quarterly,2021-Q3,2021,3,Mail type,Priority letters,items,
+Quarterly,2021-Q3,2021,3,Mail type,Printed matters,items,5090
+Quarterly,2021-Q3,2021,3,Mail type,Packets,items,4356
+Quarterly,2021-Q3,2021,3,Mail type,Parcels,items,1077
+Quarterly,2021-Q3,2021,3,Mail type,Registered,items,18041
+Quarterly,2021-Q3,2021,3,Mail type,Express Mail Service,items,2609
+Quarterly,2021-Q3,2021,3,Mail type,Total,items,55577
+Quarterly,2021-Q3,2021,3,Destination,Domestic,items,22721
+Quarterly,2021-Q3,2021,3,Destination,International outbound,items,22625
+Quarterly,2021-Q3,2021,3,Destination,International inbound,items,10231
+Quarterly,2021-Q3,2021,3,Destination,Total,items,55577
+Quarterly,2021-Q4,2021,4,Mail type,Letters,items,22913
+Quarterly,2021-Q4,2021,4,Mail type,Priority letters,items,
+Quarterly,2021-Q4,2021,4,Mail type,Printed matters,items,1101
+Quarterly,2021-Q4,2021,4,Mail type,Packets,items,4277
+Quarterly,2021-Q4,2021,4,Mail type,Parcels,items,1242
+Quarterly,2021-Q4,2021,4,Mail type,Registered,items,16781
+Quarterly,2021-Q4,2021,4,Mail type,Express Mail Service,items,2631
+Quarterly,2021-Q4,2021,4,Mail type,Total,items,48945
+Quarterly,2021-Q4,2021,4,Destination,Domestic,items,16461
+Quarterly,2021-Q4,2021,4,Destination,International outbound,items,21241
+Quarterly,2021-Q4,2021,4,Destination,International inbound,items,11243
+Quarterly,2021-Q4,2021,4,Destination,Total,items,48945
+Quarterly,2022-Q1,2022,1,Mail type,Letters,items,22192
+Quarterly,2022-Q1,2022,1,Mail type,Priority letters,items,
+Quarterly,2022-Q1,2022,1,Mail type,Printed matters,items,2220
+Quarterly,2022-Q1,2022,1,Mail type,Packets,items,4076
+Quarterly,2022-Q1,2022,1,Mail type,Parcels,items,820
+Quarterly,2022-Q1,2022,1,Mail type,Registered,items,16710
+Quarterly,2022-Q1,2022,1,Mail type,Express Mail Service,items,1906
+Quarterly,2022-Q1,2022,1,Mail type,Total,items,47924
+Quarterly,2022-Q1,2022,1,Destination,Domestic,items,15184
+Quarterly,2022-Q1,2022,1,Destination,International outbound,items,20458
+Quarterly,2022-Q1,2022,1,Destination,International inbound,items,12341
+Quarterly,2022-Q1,2022,1,Destination,Total,items,47983
+Quarterly,2022-Q2,2022,2,Mail type,Letters,items,14550
+Quarterly,2022-Q2,2022,2,Mail type,Priority letters,items,
+Quarterly,2022-Q2,2022,2,Mail type,Printed matters,items,1356
+Quarterly,2022-Q2,2022,2,Mail type,Packets,items,3561
+Quarterly,2022-Q2,2022,2,Mail type,Parcels,items,947
+Quarterly,2022-Q2,2022,2,Mail type,Registered,items,15986
+Quarterly,2022-Q2,2022,2,Mail type,Express Mail Service,items,3087
+Quarterly,2022-Q2,2022,2,Mail type,Total,items,39487
+Quarterly,2022-Q2,2022,2,Destination,Domestic,items,9811
+Quarterly,2022-Q2,2022,2,Destination,International outbound,items,19917
+Quarterly,2022-Q2,2022,2,Destination,International inbound,items,9759
+Quarterly,2022-Q2,2022,2,Destination,Total,items,39487
+Quarterly,2022-Q3,2022,3,Mail type,Letters,items,26618
+Quarterly,2022-Q3,2022,3,Mail type,Priority letters,items,
+Quarterly,2022-Q3,2022,3,Mail type,Printed matters,items,4847
+Quarterly,2022-Q3,2022,3,Mail type,Packets,items,3448
+Quarterly,2022-Q3,2022,3,Mail type,Parcels,items,856
+Quarterly,2022-Q3,2022,3,Mail type,Registered,items,13602
+Quarterly,2022-Q3,2022,3,Mail type,Express Mail Service,items,4520
+Quarterly,2022-Q3,2022,3,Mail type,Total,items,53891
+Quarterly,2022-Q3,2022,3,Destination,Domestic,items,13166
+Quarterly,2022-Q3,2022,3,Destination,International outbound,items,17266
+Quarterly,2022-Q3,2022,3,Destination,International inbound,items,23459
+Quarterly,2022-Q3,2022,3,Destination,Total,items,53891
+Quarterly,2022-Q4,2022,4,Mail type,Letters,items,18963
+Quarterly,2022-Q4,2022,4,Mail type,Priority letters,items,
+Quarterly,2022-Q4,2022,4,Mail type,Printed matters,items,1923
+Quarterly,2022-Q4,2022,4,Mail type,Packets,items,3205
+Quarterly,2022-Q4,2022,4,Mail type,Parcels,items,638
+Quarterly,2022-Q4,2022,4,Mail type,Registered,items,14219
+Quarterly,2022-Q4,2022,4,Mail type,Express Mail Service,items,2768
+Quarterly,2022-Q4,2022,4,Mail type,Total,items,41716
+Quarterly,2022-Q4,2022,4,Destination,Domestic,items,12351
+Quarterly,2022-Q4,2022,4,Destination,International outbound,items,18341
+Quarterly,2022-Q4,2022,4,Destination,International inbound,items,11024
+Quarterly,2022-Q4,2022,4,Destination,Total,items,41716
+Quarterly,2023-Q1,2023,1,Mail type,Letters,items,17383
+Quarterly,2023-Q1,2023,1,Mail type,Priority letters,items,
+Quarterly,2023-Q1,2023,1,Mail type,Printed matters,items,3016
+Quarterly,2023-Q1,2023,1,Mail type,Packets,items,3276
+Quarterly,2023-Q1,2023,1,Mail type,Parcels,items,747
+Quarterly,2023-Q1,2023,1,Mail type,Registered,items,13635
+Quarterly,2023-Q1,2023,1,Mail type,Express Mail Service,items,3278
+Quarterly,2023-Q1,2023,1,Mail type,Total,items,41335
+Quarterly,2023-Q1,2023,1,Destination,Domestic,items,9806
+Quarterly,2023-Q1,2023,1,Destination,International outbound,items,17940
+Quarterly,2023-Q1,2023,1,Destination,International inbound,items,13589
+Quarterly,2023-Q1,2023,1,Destination,Total,items,41335
+Quarterly,2023-Q2,2023,2,Mail type,Letters,items,15023
+Quarterly,2023-Q2,2023,2,Mail type,Priority letters,items,
+Quarterly,2023-Q2,2023,2,Mail type,Printed matters,items,1780
+Quarterly,2023-Q2,2023,2,Mail type,Packets,items,2946
+Quarterly,2023-Q2,2023,2,Mail type,Parcels,items,620
+Quarterly,2023-Q2,2023,2,Mail type,Registered,items,12255
+Quarterly,2023-Q2,2023,2,Mail type,Express Mail Service,items,3826
+Quarterly,2023-Q2,2023,2,Mail type,Total,items,36450
+Quarterly,2023-Q2,2023,2,Destination,Domestic,items,9004
+Quarterly,2023-Q2,2023,2,Destination,International outbound,items,17154
+Quarterly,2023-Q2,2023,2,Destination,International inbound,items,10292
+Quarterly,2023-Q2,2023,2,Destination,Total,items,36450
+Quarterly,2023-Q3,2023,3,Mail type,Letters,items,12693
+Quarterly,2023-Q3,2023,3,Mail type,Priority letters,items,
+Quarterly,2023-Q3,2023,3,Mail type,Printed matters,items,1965
+Quarterly,2023-Q3,2023,3,Mail type,Packets,items,2954
+Quarterly,2023-Q3,2023,3,Mail type,Parcels,items,724
+Quarterly,2023-Q3,2023,3,Mail type,Registered,items,12262
+Quarterly,2023-Q3,2023,3,Mail type,Express Mail Service,items,1785
+Quarterly,2023-Q3,2023,3,Mail type,Total,items,32383
+Quarterly,2023-Q3,2023,3,Destination,Domestic,items,5685
+Quarterly,2023-Q3,2023,3,Destination,International outbound,items,17423
+Quarterly,2023-Q3,2023,3,Destination,International inbound,items,9275
+Quarterly,2023-Q3,2023,3,Destination,Total,items,32383
+Quarterly,2023-Q4,2023,4,Mail type,Letters,items,17859
+Quarterly,2023-Q4,2023,4,Mail type,Priority letters,items,
+Quarterly,2023-Q4,2023,4,Mail type,Printed matters,items,2129
+Quarterly,2023-Q4,2023,4,Mail type,Packets,items,2751
+Quarterly,2023-Q4,2023,4,Mail type,Parcels,items,799
+Quarterly,2023-Q4,2023,4,Mail type,Registered,items,11803
+Quarterly,2023-Q4,2023,4,Mail type,Express Mail Service,items,2441
+Quarterly,2023-Q4,2023,4,Mail type,Total,items,37782
+Quarterly,2023-Q4,2023,4,Destination,Domestic,items,10661
+Quarterly,2023-Q4,2023,4,Destination,International outbound,items,15895
+Quarterly,2023-Q4,2023,4,Destination,International inbound,items,11226
+Quarterly,2023-Q4,2023,4,Destination,Total,items,37782
+Quarterly,2024-Q1,2024,1,Mail type,Letters,items,14709
+Quarterly,2024-Q1,2024,1,Mail type,Priority letters,items,
+Quarterly,2024-Q1,2024,1,Mail type,Printed matters,items,1281
+Quarterly,2024-Q1,2024,1,Mail type,Packets,items,2872
+Quarterly,2024-Q1,2024,1,Mail type,Parcels,items,550
+Quarterly,2024-Q1,2024,1,Mail type,Registered,items,13173
+Quarterly,2024-Q1,2024,1,Mail type,Express Mail Service,items,1951
+Quarterly,2024-Q1,2024,1,Mail type,Total,items,34536
+Quarterly,2024-Q1,2024,1,Destination,Domestic,items,7932
+Quarterly,2024-Q1,2024,1,Destination,International outbound,items,16912
+Quarterly,2024-Q1,2024,1,Destination,International inbound,items,9692
+Quarterly,2024-Q1,2024,1,Destination,Total,items,34536
+Quarterly,2024-Q2,2024,2,Mail type,Letters,items,16133
+Quarterly,2024-Q2,2024,2,Mail type,Priority letters,items,
+Quarterly,2024-Q2,2024,2,Mail type,Printed matters,items,965
+Quarterly,2024-Q2,2024,2,Mail type,Packets,items,1523
+Quarterly,2024-Q2,2024,2,Mail type,Parcels,items,564
+Quarterly,2024-Q2,2024,2,Mail type,Registered,items,11865
+Quarterly,2024-Q2,2024,2,Mail type,Express Mail Service,items,1870
+Quarterly,2024-Q2,2024,2,Mail type,Total,items,32920
+Quarterly,2024-Q2,2024,2,Destination,Domestic,items,10964
+Quarterly,2024-Q2,2024,2,Destination,International outbound,items,14631
+Quarterly,2024-Q2,2024,2,Destination,International inbound,items,7325
+Quarterly,2024-Q2,2024,2,Destination,Total,items,32920
+Quarterly,2024-Q3,2024,3,Mail type,Letters,items,12002
+Quarterly,2024-Q3,2024,3,Mail type,Priority letters,items,
+Quarterly,2024-Q3,2024,3,Mail type,Printed matters,items,1622
+Quarterly,2024-Q3,2024,3,Mail type,Packets,items,1351
+Quarterly,2024-Q3,2024,3,Mail type,Parcels,items,625
+Quarterly,2024-Q3,2024,3,Mail type,Registered,items,11717
+Quarterly,2024-Q3,2024,3,Mail type,Express Mail Service,items,2231
+Quarterly,2024-Q3,2024,3,Mail type,Total,items,29548
+Quarterly,2024-Q3,2024,3,Destination,Domestic,items,6557
+Quarterly,2024-Q3,2024,3,Destination,International outbound,items,14246
+Quarterly,2024-Q3,2024,3,Destination,International inbound,items,8745
+Quarterly,2024-Q3,2024,3,Destination,Total,items,29548
+Quarterly,2024-Q4,2024,4,Mail type,Letters,items,12057
+Quarterly,2024-Q4,2024,4,Mail type,Priority letters,items,
+Quarterly,2024-Q4,2024,4,Mail type,Printed matters,items,1273
+Quarterly,2024-Q4,2024,4,Mail type,Packets,items,1283
+Quarterly,2024-Q4,2024,4,Mail type,Parcels,items,464
+Quarterly,2024-Q4,2024,4,Mail type,Registered,items,10287
+Quarterly,2024-Q4,2024,4,Mail type,Express Mail Service,items,1484
+Quarterly,2024-Q4,2024,4,Mail type,Total,items,26848
+Quarterly,2024-Q4,2024,4,Destination,Domestic,items,5668
+Quarterly,2024-Q4,2024,4,Destination,International outbound,items,12900
+Quarterly,2024-Q4,2024,4,Destination,International inbound,items,8280
+Quarterly,2024-Q4,2024,4,Destination,Total,items,26848
+Quarterly,2025-Q1,2025,1,Mail type,Letters,items,11882
+Quarterly,2025-Q1,2025,1,Mail type,Priority letters,items,
+Quarterly,2025-Q1,2025,1,Mail type,Printed matters,items,2789
+Quarterly,2025-Q1,2025,1,Mail type,Packets,items,1467
+Quarterly,2025-Q1,2025,1,Mail type,Parcels,items,616
+Quarterly,2025-Q1,2025,1,Mail type,Registered,items,10857
+Quarterly,2025-Q1,2025,1,Mail type,Express Mail Service,items,1697
+Quarterly,2025-Q1,2025,1,Mail type,Total,items,29308
+Quarterly,2025-Q1,2025,1,Destination,Domestic,items,6107
+Quarterly,2025-Q1,2025,1,Destination,International outbound,items,12661
+Quarterly,2025-Q1,2025,1,Destination,International inbound,items,10540
+Quarterly,2025-Q1,2025,1,Destination,Total,items,29308
+Quarterly,2025-Q2,2025,2,Mail type,Letters,items,15151
+Quarterly,2025-Q2,2025,2,Mail type,Priority letters,items,
+Quarterly,2025-Q2,2025,2,Mail type,Printed matters,items,1092
+Quarterly,2025-Q2,2025,2,Mail type,Packets,items,1605
+Quarterly,2025-Q2,2025,2,Mail type,Parcels,items,708
+Quarterly,2025-Q2,2025,2,Mail type,Registered,items,10873
+Quarterly,2025-Q2,2025,2,Mail type,Express Mail Service,items,1755
+Quarterly,2025-Q2,2025,2,Mail type,Total,items,31184
+Quarterly,2025-Q2,2025,2,Destination,Domestic,items,8714
+Quarterly,2025-Q2,2025,2,Destination,International outbound,items,13855
+Quarterly,2025-Q2,2025,2,Destination,International inbound,items,8615
+Quarterly,2025-Q2,2025,2,Destination,Total,items,31184
+Quarterly,2025-Q3,2025,3,Mail type,Letters,items,16532
+Quarterly,2025-Q3,2025,3,Mail type,Priority letters,items,
+Quarterly,2025-Q3,2025,3,Mail type,Printed matters,items,1233
+Quarterly,2025-Q3,2025,3,Mail type,Packets,items,1126
+Quarterly,2025-Q3,2025,3,Mail type,Parcels,items,679
+Quarterly,2025-Q3,2025,3,Mail type,Registered,items,9637
+Quarterly,2025-Q3,2025,3,Mail type,Express Mail Service,items,1755
+Quarterly,2025-Q3,2025,3,Mail type,Total,items,30962
+Quarterly,2025-Q3,2025,3,Destination,Domestic,items,9024
+Quarterly,2025-Q3,2025,3,Destination,International outbound,items,12524
+Quarterly,2025-Q3,2025,3,Destination,International inbound,items,9414
+Quarterly,2025-Q3,2025,3,Destination,Total,items,30962
+Quarterly,2025-Q4,2025,4,Mail type,Letters,items,13333
+Quarterly,2025-Q4,2025,4,Mail type,Priority letters,items,
+Quarterly,2025-Q4,2025,4,Mail type,Printed matters,items,973
+Quarterly,2025-Q4,2025,4,Mail type,Packets,items,851
+Quarterly,2025-Q4,2025,4,Mail type,Parcels,items,646
+Quarterly,2025-Q4,2025,4,Mail type,Registered,items,9994
+Quarterly,2025-Q4,2025,4,Mail type,Express Mail Service,items,1903
+Quarterly,2025-Q4,2025,4,Mail type,Total,items,27700
+Quarterly,2025-Q4,2025,4,Destination,Domestic,items,8062
+Quarterly,2025-Q4,2025,4,Destination,International outbound,items,12740
+Quarterly,2025-Q4,2025,4,Destination,International inbound,items,6898
+Quarterly,2025-Q4,2025,4,Destination,Total,items,27700
+Quarterly,2026-Q1,2026,1,Mail type,Letters,items,10257
+Quarterly,2026-Q1,2026,1,Mail type,Priority letters,items,
+Quarterly,2026-Q1,2026,1,Mail type,Printed matters,items,1119
+Quarterly,2026-Q1,2026,1,Mail type,Packets,items,1042
+Quarterly,2026-Q1,2026,1,Mail type,Parcels,items,524
+Quarterly,2026-Q1,2026,1,Mail type,Registered,items,10383
+Quarterly,2026-Q1,2026,1,Mail type,Express Mail Service,items,1521
+Quarterly,2026-Q1,2026,1,Mail type,Total,items,24846
+Quarterly,2026-Q1,2026,1,Destination,Domestic,items,6286
+Quarterly,2026-Q1,2026,1,Destination,International outbound,items,12333
+Quarterly,2026-Q1,2026,1,Destination,International inbound,items,6227
+Quarterly,2026-Q1,2026,1,Destination,Total,items,24846
+Quarterly,2026-Q2,2026,2,Mail type,Letters,items,8919
+Quarterly,2026-Q2,2026,2,Mail type,Priority letters,items,
+Quarterly,2026-Q2,2026,2,Mail type,Printed matters,items,942
+Quarterly,2026-Q2,2026,2,Mail type,Packets,items,951
+Quarterly,2026-Q2,2026,2,Mail type,Parcels,items,579
+Quarterly,2026-Q2,2026,2,Mail type,Registered,items,9854
+Quarterly,2026-Q2,2026,2,Mail type,Express Mail Service,items,1416
+Quarterly,2026-Q2,2026,2,Mail type,Total,items,22661
+Quarterly,2026-Q2,2026,2,Destination,Domestic,items,3773
+Quarterly,2026-Q2,2026,2,Destination,International outbound,items,12209
+Quarterly,2026-Q2,2026,2,Destination,International inbound,items,6679
+Quarterly,2026-Q2,2026,2,Destination,Total,items,22661

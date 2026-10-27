@@ -1,0 +1,17 @@
+# Built site (GitHub Actions rebuilds it on every push)
+_site/
+
+# Windows / OneDrive / Office
+desktop.ini
+Thumbs.db
+~$*
+
+# Python
+__pycache__/
+.venv/
+
+# Local editor/agent settings
+.claude/
+
+# Working files not published with the dashboard
+1.Production/*.xlsx

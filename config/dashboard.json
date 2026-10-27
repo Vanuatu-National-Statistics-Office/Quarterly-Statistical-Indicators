@@ -1,0 +1,258 @@
+{
+  "site": {
+    "website": "https://vbos.gov.vu",
+    "repo_url": ""
+  },
+
+  "sections": [
+    {"id": "production",    "no": "1",  "title": {"en": "Production",                     "fr": "Production"}},
+    {"id": "communication", "no": "2",  "title": {"en": "Communication",                  "fr": "Communication"}},
+    {"id": "energy",        "no": "3",  "title": {"en": "Energy",                         "fr": "Énergie"}},
+    {"id": "prices",        "no": "4",  "title": {"en": "Price Indices",                  "fr": "Indices des prix"}},
+    {"id": "gfs",           "no": "5",  "title": {"en": "Government Finance Statistics",  "fr": "Statistiques des finances publiques"}},
+    {"id": "trade",         "no": "6",  "title": {"en": "Overseas Trade",                 "fr": "Commerce extérieur"}},
+    {"id": "tourism",       "no": "7",  "title": {"en": "Tourism",                        "fr": "Tourisme"}},
+    {"id": "exchange",      "no": "8",  "title": {"en": "Exchange Rates",                 "fr": "Taux de change"}},
+    {"id": "transport",     "no": "9",  "title": {"en": "Transport",                      "fr": "Transport"}},
+    {"id": "employment",    "no": "10", "title": {"en": "Employment",                     "fr": "Emploi"}}
+  ],
+
+  "datasets": [
+    {
+      "id": "t1_1", "table": "1.1", "section": "production",
+      "file": "1.Production/copra&cocoa_production.csv",
+      "layout": "year_period",
+      "rename": {"Year": "year", "Period": "period", "Commodity": "commodity", "Location": "location",
+                 "Indicator": "indicator", "Unit": "unit", "Value": "value"},
+      "title": {"en": "Copra and cocoa production", "fr": "Production de coprah et de cacao"},
+      "filters": ["commodity", "indicator"], "series": "location",
+      "defaults": {"indicator": "Quantity"}, "chart": "bar"
+    },
+    {
+      "id": "t1_2", "table": "1.2", "section": "production",
+      "file": "1.Production/cattle_production.csv",
+      "title": {"en": "Cattle slaughter", "fr": "Abattage de bovins"},
+      "filters": ["measure"], "series": "abattoir", "chart": "bar"
+    },
+    {
+      "id": "t2", "table": "2", "section": "communication",
+      "file": "2.Communication/postal_service.csv",
+      "title": {"en": "Postal services", "fr": "Services postaux"},
+      "filters": ["breakdown"], "series": "category", "chart": "bar"
+    },
+    {
+      "id": "t3", "table": "3", "section": "energy",
+      "file": "3.Energy/energy_consumption.csv",
+      "title": {"en": "Energy consumption", "fr": "Consommation d'énergie"},
+      "filters": ["series"], "series": "category", "chart": "bar"
+    },
+    {
+      "id": "t4_1", "table": "4.1", "section": "prices",
+      "file": "4.Price Indices/Table4.1_CPI.csv",
+      "title": {"en": "Consumer Price Index", "fr": "Indice des prix à la consommation"},
+      "filters": ["series", "measure"], "series": "location",
+      "defaults": {"measure": "Index"}, "chart": "line"
+    },
+    {
+      "id": "t4_2", "table": "4.2", "section": "prices",
+      "file": "4.Price Indices/Table4.2_cpi_by_group_vanuatu.csv",
+      "title": {"en": "CPI by expenditure group – Vanuatu", "fr": "IPC par poste de dépense – Vanuatu"},
+      "filters": [], "series": "group", "chart": "line",
+      "default_series": ["All groups", "Food", "Housing & utilities", "Transport"]
+    },
+    {
+      "id": "t4_3", "table": "4.3", "section": "prices",
+      "file": "4.Price Indices/Table4.3_cpi_by_group_port_vila.csv",
+      "title": {"en": "CPI by expenditure group – Port Vila", "fr": "IPC par poste de dépense – Port-Vila"},
+      "filters": [], "series": "group", "chart": "line",
+      "default_series": ["All groups", "Food", "Housing & utilities", "Transport"]
+    },
+    {
+      "id": "t4_4", "table": "4.4", "section": "prices",
+      "file": "4.Price Indices/Table4.4_cpi_by_group_luganville.csv",
+      "title": {"en": "CPI by expenditure group – Luganville", "fr": "IPC par poste de dépense – Luganville"},
+      "filters": [], "series": "group", "chart": "line",
+      "default_series": ["All groups", "Food", "Housing & utilities", "Transport"]
+    },
+    {
+      "id": "t4_5", "table": "4.5", "section": "prices",
+      "file": "4.Price Indices/Table4.5_cpi_by_group_lenakel.csv",
+      "title": {"en": "CPI by expenditure group – Lenakel", "fr": "IPC par poste de dépense – Lenakel"},
+      "filters": [], "series": "group", "chart": "line",
+      "default_series": ["All groups", "Food", "Housing & utilities", "Transport"]
+    },
+    {
+      "id": "t5_1", "table": "5.1", "section": "gfs",
+      "file": "5.Government Finance Statistics/Table5.1_government_finance.csv",
+      "title": {"en": "Government revenue and expense", "fr": "Recettes et charges de l'État"},
+      "filters": ["category"], "series": "item", "chart": "bar"
+    },
+    {
+      "id": "t5_2", "table": "5.2", "section": "gfs",
+      "file": "5.Government Finance Statistics/Table5.2_government_finance.csv",
+      "title": {"en": "Government financing", "fr": "Financement de l'État"},
+      "filters": ["category"], "series": "item", "chart": "bar"
+    },
+    {
+      "id": "t6_1", "table": "6.1", "section": "trade",
+      "file": "6.Overseas Trade/Table6.1_overseas_trade.csv",
+      "title": {"en": "Overseas trade summary", "fr": "Résumé du commerce extérieur"},
+      "filters": ["flow", "item"], "series": "port", "chart": "bar"
+    },
+    {
+      "id": "t6_2", "table": "6.2", "section": "trade",
+      "file": "6.Overseas Trade/Table6.2_domestic_exports_by_product.csv",
+      "title": {"en": "Domestic exports by product (value)", "fr": "Exportations nationales par produit (valeur)"},
+      "filters": [], "series": "product", "chart": "bar",
+      "default_series": ["Copra", "Coconut oil", "Beef & veal", "Cocoa", "Kava"]
+    },
+    {
+      "id": "t6_3", "table": "6.3", "section": "trade",
+      "file": "6.Overseas Trade/Table6.3_domestic_exports_quantity.csv",
+      "title": {"en": "Domestic exports by product (quantity)", "fr": "Exportations nationales par produit (quantité)"},
+      "filters": [], "series": "product", "chart": "bar",
+      "default_series": ["Copra", "Coconut oil", "Beef & veal", "Cocoa", "Kava"]
+    },
+    {
+      "id": "t6_4", "table": "6.4", "section": "trade",
+      "file": "6.Overseas Trade/Table6.4_export_prices.csv",
+      "title": {"en": "Export prices", "fr": "Prix à l'exportation"},
+      "filters": [], "series": "product", "chart": "line",
+      "default_series": ["Copra", "Coconut oil", "Beef & veal", "Cocoa", "Kava"]
+    },
+    {
+      "id": "t6_5", "table": "6.5", "section": "trade",
+      "file": "6.Overseas Trade/Table6.5_domestic_exports_by_destination.csv",
+      "title": {"en": "Domestic exports by destination", "fr": "Exportations nationales par destination"},
+      "filters": [], "series": "destination", "chart": "bar"
+    },
+    {
+      "id": "t6_6", "table": "6.6", "section": "trade",
+      "file": "6.Overseas Trade/Table6.6_imports_by_sitc.csv",
+      "title": {"en": "Imports by SITC section", "fr": "Importations par section de la CTCI"},
+      "drop": ["sitc"],
+      "filters": [], "series": "commodity", "chart": "bar"
+    },
+    {
+      "id": "t6_7", "table": "6.7", "section": "trade",
+      "file": "6.Overseas Trade/Table6.7_imports_by_origin.csv",
+      "title": {"en": "Imports by country of origin", "fr": "Importations par pays fournisseur"},
+      "filters": [], "series": "country", "chart": "bar"
+    },
+    {
+      "id": "t6_8", "table": "6.8", "section": "trade",
+      "file": "6.Overseas Trade/Table6.8_major_import_items.csv",
+      "title": {"en": "Ten major import items", "fr": "Dix principaux produits importés"},
+      "filters": [], "series": "item", "chart": "bar"
+    },
+    {
+      "id": "t7_1", "table": "7.1", "section": "tourism",
+      "file": "7.Tourism/Table7.1_arrivals.csv",
+      "title": {"en": "Arrivals summary", "fr": "Résumé des arrivées"},
+      "filters": ["measure"], "series": "port",
+      "defaults": {"measure": "Visitor arrivals"}, "chart": "bar",
+      "source": {"en": "Department of Immigration", "fr": "Services de l'Immigration"}
+    },
+    {
+      "id": "t7_2", "table": "7.2", "section": "tourism",
+      "file": "7.Tourism/Table7.2_resident_arrivals_by_nationality.csv",
+      "title": {"en": "Resident arrivals by nationality", "fr": "Arrivées de résidents par nationalité"},
+      "filters": [], "series": "nationality", "chart": "bar",
+      "source": {"en": "Department of Immigration", "fr": "Services de l'Immigration"}
+    },
+    {
+      "id": "t7_3", "table": "7.3", "section": "tourism",
+      "file": "7.Tourism/Table7.3_visitor_arrivals_by_residence.csv",
+      "title": {"en": "Visitor arrivals by country of residence", "fr": "Arrivées de visiteurs par pays de résidence"},
+      "filters": [], "series": "country_of_residence", "chart": "bar",
+      "source": {"en": "Department of Immigration", "fr": "Services de l'Immigration"}
+    },
+    {
+      "id": "t7_4", "table": "7.4", "section": "tourism",
+      "file": "7.Tourism/Table7.4_visitor_arrivals_by_purpose.csv",
+      "title": {"en": "Visitor arrivals by purpose of visit", "fr": "Arrivées de visiteurs par motif de visite"},
+      "filters": [], "series": "purpose", "chart": "bar",
+      "source": {"en": "Department of Immigration", "fr": "Services de l'Immigration"}
+    },
+    {
+      "id": "t8", "table": "8", "section": "exchange",
+      "file": "8.Exchange Rate/Table8_exchange_rates.csv",
+      "title": {"en": "Exchange rates: average rates used by Customs", "fr": "Taux de change : moyennes des taux utilisés par le Service des Douanes"},
+      "filters": [], "series": "currency", "chart": "line",
+      "default_series": ["AUD", "USD", "NZD", "EUR", "GBP", "FJD", "SGD"],
+      "source": {"en": "Department of Customs and Inland Revenue", "fr": "Service des Douanes et Contributions Indirectes"}
+    },
+    {
+      "id": "t9", "table": "9", "section": "transport",
+      "file": "9.Transport Registration/Table9_vehicle_registrations.csv",
+      "title": {"en": "Private motor vehicle registrations", "fr": "Immatriculation de véhicules privés"},
+      "filters": [], "series": "vehicle_type", "chart": "bar",
+      "source": {"en": "Rates and Tax Office, Department of Customs and Inland Revenue",
+                 "fr": "Bureau de Patente, Service des Douanes et des Contributions Indirectes"},
+      "note": {"en": "Port Vila data only from 3rd quarter 2025.", "fr": "Données de Port-Vila uniquement à partir du 3e trimestre 2025."}
+    },
+    {
+      "id": "t10", "table": "10", "section": "employment",
+      "file": "10.Employment/Table10_vnpf_members_by_sex.csv",
+      "title": {"en": "Provident Fund contributing members (formal employment) by sex",
+                "fr": "Membres cotisants de la caisse de prévoyance (emploi formel) par sexe"},
+      "filters": ["measure"], "series": "sex", "chart": "bar",
+      "source": {"en": "Vanuatu National Provident Fund (VNPF)", "fr": "Caisse Nationale de Prévoyance du Vanuatu (CNPV)"},
+      "note": {"en": "Members are counted at the end of each period. The fourth quarter of the year represents an updated annual figure.",
+               "fr": "Les membres sont comptés à la fin de chaque période. Le quatrième trimestre de l'année représente un chiffre annuel mis à jour."}
+    }
+  ],
+
+  "headlines": [
+    {"label": {"en": "Inflation (CPI, year on year)", "fr": "Inflation (IPC, en glissement annuel)"},
+     "dataset": "t4_1", "frequency": "Quarterly",
+     "filters": {"series": "Consumer Price Index", "measure": "% change on same quarter of previous year"},
+     "series": "Total", "compare": "none", "suffix": "%"},
+    {"label": {"en": "Visitor arrivals", "fr": "Arrivées de visiteurs"},
+     "dataset": "t7_1", "frequency": "Quarterly", "filters": {"measure": "Visitor arrivals"},
+     "series": "All ports", "compare": "yoy_pct"},
+    {"label": {"en": "Total exports (VT million)", "fr": "Total des exportations (millions de VT)"},
+     "dataset": "t6_1", "frequency": "Quarterly", "filters": {"flow": "Exports (f.o.b.)", "item": "Total exports"},
+     "series": "All ports", "compare": "yoy_pct"},
+    {"label": {"en": "Total imports (VT million)", "fr": "Total des importations (millions de VT)"},
+     "dataset": "t6_1", "frequency": "Quarterly", "filters": {"flow": "Imports (c.i.f.)", "item": "Total imports"},
+     "series": "All ports", "compare": "yoy_pct"},
+    {"label": {"en": "Trade balance (VT million)", "fr": "Balance commerciale (millions de VT)"},
+     "dataset": "t6_1", "frequency": "Quarterly", "filters": {"flow": "Trade balance", "item": "Trade balance (E - I)"},
+     "series": "All ports", "compare": "yoy_diff"},
+    {"label": {"en": "Government revenue (VT million)", "fr": "Recettes de l'État (millions de VT)"},
+     "dataset": "t5_1", "frequency": "Quarterly", "filters": {"category": "Revenue"},
+     "series": "Total revenue", "compare": "yoy_pct"},
+    {"label": {"en": "Electricity consumption ('000 kWh)", "fr": "Consommation d'électricité (milliers de kWh)"},
+     "dataset": "t3", "frequency": "Quarterly", "filters": {"series": "Electricity consumption"},
+     "series": "Total", "compare": "yoy_pct"},
+    {"label": {"en": "VNPF contributing members", "fr": "Membres cotisants de la CNPV"},
+     "dataset": "t10", "frequency": "Quarterly", "filters": {"measure": "Contributing members"},
+     "series": "Total", "compare": "yoy_pct"},
+    {"label": {"en": "Vehicle registrations", "fr": "Immatriculations de véhicules"},
+     "dataset": "t9", "frequency": "Quarterly", "filters": {},
+     "series": "Total", "compare": "yoy_pct"},
+    {"label": {"en": "AUD per 100 vatu", "fr": "AUD pour 100 vatu"},
+     "dataset": "t8", "frequency": "Quarterly", "filters": {},
+     "series": "AUD", "compare": "yoy_pct"}
+  ],
+
+  "overview_charts": [
+    {"title": {"en": "Visitor arrivals by port", "fr": "Arrivées de visiteurs par port"},
+     "dataset": "t7_1", "frequency": "Quarterly", "filters": {"measure": "Visitor arrivals"},
+     "series": ["Port Vila", "Luganville"], "chart": "bar"},
+    {"title": {"en": "Inflation (CPI, year on year, %)", "fr": "Inflation (IPC, en glissement annuel, %)"},
+     "dataset": "t4_1", "frequency": "Quarterly",
+     "filters": {"series": "Consumer Price Index", "measure": "% change on same quarter of previous year"},
+     "series": ["Total", "Port Vila", "Luganville"], "chart": "line"},
+    {"title": {"en": "Exports and imports (VT million)", "fr": "Exportations et importations (millions de VT)"},
+     "dataset": "t6_1", "frequency": "Annual", "filters": {},
+     "series_from": [
+       {"filters": {"flow": "Exports (f.o.b.)", "item": "Total exports"}, "series": "All ports"},
+       {"filters": {"flow": "Imports (c.i.f.)", "item": "Total imports"}, "series": "All ports"}
+     ], "chart": "bar"},
+    {"title": {"en": "VNPF contributing members by sex", "fr": "Membres cotisants de la CNPV par sexe"},
+     "dataset": "t10", "frequency": "Quarterly", "filters": {"measure": "Contributing members"},
+     "series": ["Male", "Female"], "chart": "bar"}
+  ]
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VBoS Statistics Dashboard</title>
+  <meta name="description" content="Key statistics for Vanuatu from the Vanuatu Bureau of Statistics: production, prices, government finance, trade, tourism, exchange rates, transport and employment.">
+  <meta name="theme-color" content="#265069">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/plotly.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="topbar">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <span class="sr-only" data-i18n="menu">Menu</span>
+    </button>
+    <a class="brand" href="#/">
+      <img src="assets/logo-mark.png" alt="" width="40" height="51">
+      <span class="brand-text">
+        <span class="brand-org" data-i18n="org">Vanuatu Bureau of Statistics</span>
+        <span class="brand-app" data-i18n="appTitle">Statistics Dashboard</span>
+      </span>
+    </a>
+    <div class="topbar-actions">
+      <div class="lang-switch" role="group" aria-label="Language / Langue">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+      <a class="btn btn-ghost hide-sm" href="downloads/vbos_dashboard_data.zip" download>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14"/></svg>
+        <span data-i18n="downloadAll">All data</span>
+      </a>
+      <button type="button" class="btn btn-primary" id="installBtn">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10m0 0-4-4m4 4 4-4M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+        <span data-i18n="install">Install app</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Tables"></nav>
+    <div class="scrim" id="scrim" hidden></div>
+    <main id="main" tabindex="-1">
+      <p class="loading" data-i18n="loading">Loading statistics…</p>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <dialog id="installDialog" class="dialog">
+    <form method="dialog">
+      <h2 data-i18n="installTitle">Install the dashboard app</h2>
+      <p data-i18n="installIntro">The dashboard can be installed like an app. It opens in its own window and keeps the latest data you viewed for use offline.</p>
+      <ul class="install-steps">
+        <li><strong data-i18n="installPcTitle">Computer (Chrome or Edge):</strong> <span data-i18n="installPc">click the install icon at the right of the address bar, or open the browser menu and choose “Install VBoS Statistics”.</span></li>
+        <li><strong data-i18n="installAndroidTitle">Android:</strong> <span data-i18n="installAndroid">open the browser menu (⋮) and choose “Install app” or “Add to Home screen”.</span></li>
+        <li><strong data-i18n="installIosTitle">iPhone or iPad (Safari):</strong> <span data-i18n="installIos">tap Share, then “Add to Home Screen”.</span></li>
+      </ul>
+      <div class="dialog-actions"><button class="btn btn-primary" value="close" data-i18n="close">Close</button></div>
+    </form>
+  </dialog>
+
+  <noscript><p class="loading">This dashboard needs JavaScript. / Ce tableau de bord nécessite JavaScript.</p></noscript>
+</body>
+</html>

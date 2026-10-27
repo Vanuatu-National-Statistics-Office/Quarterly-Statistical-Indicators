@@ -1,0 +1,14 @@
+Dashboard design & features and web app.
+
+1.interactive dashboard featuring sidebar menu
+2.data visualization must be in bar and line charts
+3.dashboard and app must have language option basically English and French
+4.a download button for app download and installation
+5.the colors and theme color for the dashboard and app must align to our VBOS logo colors
+6.charts and tables should have download links
+7.provide filters option for each tables and relative charts.
+8.also create a repository that can be uploaded to GitHub and from GitHub, i should continue to        upload latest data to repository and the dashboard should be updated.
+
+9.prefer python rather than r for the dashboard design and app development
+
+ 
